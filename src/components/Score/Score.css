@@ -1,0 +1,28 @@
+.Score table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Score table, th, td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.Score th, td {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.Score table:first-child th {
+    font-weight: bold;
+    color: red;
+}
+
+.Score .highScore {
+    font-weight: bold;
+    color: green;
+    font-size: 1.1em;
+}
